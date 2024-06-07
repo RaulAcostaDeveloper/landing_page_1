@@ -1,0 +1,39 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.carousel img {
+    width: 100%;
+    display: none;
+}
+
+.carousel img.active {
+    display: block;
+}
+
+.carousel .prev,
+.carousel .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.carousel .prev {
+    left: 10px;
+}
+
+.carousel .next {
+    right: 10px;
+}

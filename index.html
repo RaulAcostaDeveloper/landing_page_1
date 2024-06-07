@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your page</title>
+    <link rel="icon" href="./images/iconos/menu-hamburguesa.svg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/portada.css">
+    <link rel="stylesheet" href="./styles/menuMovileHeader.css">
+    <link rel="stylesheet" href="./styles/insideContent.css">
+    <link rel="stylesheet" href="./styles/imagenes.css">
+    <link rel="stylesheet" href="./styles/galeriaDeServicios.css">
+    <link rel="stylesheet" href="./styles/redesFlotantes.css">
+    <link rel="stylesheet" href="./styles/carrucel.css">
+    <link rel="stylesheet" href="./styles/cubo.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+
+<body>
+
+    <div id="redesFlotantes">
+        <h3>Redes flotantes</h3>
+        <a href="https://www.facebook.com" target="_blank">
+            <img src="./images/iconos/redes/facebook.png" alt="facebook">
+        </a>
+        <a href="https://github.com/" target="_blank">
+            <img src="./images/iconos/redes/github.png" alt="Github">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+            <img src="./images/iconos/redes/linkedin.png" alt="Linkedin">
+        </a>
+    </div>
+
+    <header>
+        <img id="logoHeader" src="./images/logo.png" alt="Logo">
+        <button id="buttonMenuHeader" onclick="toggleMenuMovileHeader()">
+            <img src="./images/iconos/menu-hamburguesa.svg" alt="Abrir menu">
+        </button>
+
+        <div id="menuMovileHeader" onclick="toggleMenuMovileHeader()">
+            <div id="headerMenuMovileHeader">
+                <div>
+                    <img src="./images/iconos/whiteMenu.png" alt="menu">
+                    <span>menu</span>
+                </div>
+                <button>X</button>
+            </div>
+            <a href="#article1" class="menuMovileBlock">
+                <img class="iconoMenu" src="./images/iconos/casa.png" alt="menu">
+                <span>Introducción</span>
+            </a>
+            <a href="#article2" class="menuMovileBlock">
+                <img class="iconoMenu" src="./images/iconos/bandeja-de-comida.png" alt="menu">
+                <span>Imágenes</span>
+            </a>
+            <a href="#article3" class="menuMovileBlock">
+                <img class="iconoMenu" src="./images/iconos/sobre.png" alt="menu">
+                <span>Servicios</span>
+            </a>
+            <a href="#article4" class="menuMovileBlock">
+                <img class="iconoMenu" src="./images/iconos/campana.png" alt="menu">
+                <span>Carruceles</span>
+            </a>
+            <a href="#article5" class="menuMovileBlock">
+                <img class="iconoMenu" src="./images/iconos/editar.png" alt="menu">
+                <span>Elementos</span>
+            </a>
+            <a href="#footer" class="menuMovileBlock">
+                <img class="iconoMenu" src="./images/iconos/carrito-de-compras.png" alt="menu">
+                <span>Footer</span>
+            </a>
+        </div>
+        <div id="navbarDesktopHeader">
+            <a href="#article1">Introducción</a>
+            <a href="#article2">Imágenes</a>
+            <a href="#article3">Servicios</a>
+            <a href="#article4">Carruceles</a>
+            <a href="#article5">Elementos</a>
+            <a href="#footer">Footer</a>
+        </div>
+    </header>
+
+    <div id="portada">
+        <img id="imagenPortada" src="./images/portada.jpg" alt="Portada">
+        <div id="logoPortada">
+            <img src="./images/ImagenPortada.png" alt="Logo">
+        </div>
+    </div>
+
+    <div class="insideContent">
+        <section>
+            <article id="article1">
+                <h2>Introducción</h2>
+                <p>En el mundo digital de hoy, tener una presencia en línea efectiva y visualmente atractiva es esencial
+                    para el éxito de cualquier negocio. Nosotros nos especializamos en crear páginas web que no solo
+                    capturan la atención de tus visitantes, sino que también los convierten en clientes leales.</p>
+            </article>
+            <article id="article2">
+                <h2>Imágenes</h2>
+                <div class="contenidoImagenes1">
+                    <h3>Imagenes centradas</h3>
+                    <div class="imageContent">
+                        <div class="contenedorImagen">
+                            <img class="tamañoImagen1" src="./images/portada2.jpeg" alt="Imagen normal">
+                        </div>
+                        <div class="contenido">
+                            <h4>Contenido</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deserunt dolores, facilis
+                                reprehenderit quae incidunt velit error voluptates magnam accusamus? Minus, corrupti?
+                                Unde incidunt non nulla dolorem error obcaecati aperiam.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores totam iure officiis
+                                corporis provident rem distinctio soluta ea molestiae, alias atque exercitationem quia
+                                possimus libero ducimus reprehenderit repellendus id tempora!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenidoImagenes2">
+                    <h3>Imagenes con contenido alineado a la derecha</h3>
+                    <div class="imageContent">
+                        <img class="tamañoImagen1" src="./images/portada2.jpeg" alt="Imagen normal">
+                        <div class="contenidoDer">
+                            <h4>Contenido</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deserunt dolores, facilis
+                                reprehenderit quae incidunt velit error voluptates magnam accusamus? Minus, corrupti?
+                                Unde incidunt non nulla dolorem error obcaecati aperiam.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contenidoImagenes2">
+                    <h3>Imagenes con contenido alineado a la izquierda</h3>
+                    <div class="imageContent">
+                        <div class="contenidoIzq">
+                            <h4>Contenido</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A deserunt dolores, facilis
+                                reprehenderit quae incidunt velit error voluptates magnam accusamus? Minus, corrupti?
+                                Unde incidunt non nulla dolorem error obcaecati aperiam.</p>
+                        </div>
+                        <img class="tamañoImagen3" src="./images/portada2.jpeg" alt="Imagen normal">
+                    </div>
+                </div>
+            </article>
+            <article id="article3">
+                <h2>Galerías de servicios</h2>
+                <div class="galeriaDeservicios">
+                    <div class="elementoGaleria">
+                        <h3>Titulo servicio</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto quis aliquid amet
+                            dolorum debitis eveniet libero magni. Odio minus repellat eos ullam neque reiciendis at iste
+                            mollitia recusandae aspernatur?</p>
+                        <div class="price">
+                            <span class="precioGaleria">$500</span>
+                            <button class="custom-button">Contratar</button>
+                        </div>
+                    </div>
+                    <div class="elementoGaleria">
+                        <h3>Titulo servicio</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In architecto quis aliquid amet
+                            dolorum debitis eveniet libero magni. Odio minus repellat eos ullam neque reiciendis at iste
+                            mollitia recusandae aspernatur?</p>
+                        <div class="price">
+                            <span class="precioGaleria">$500</span>
+                            <button class="custom-button">Contratar</button>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article id="article4">
+                <h2>Carruceles de imágenes</h2>
+                <!-- Carrucel -->
+                <div class="carousel">
+                    <img src="./images/portada.jpg" alt="Image 1" class="active">
+                    <img src="./images/portada2.jpeg" alt="Image 2">
+                    <img src="./images/portada3.png" alt="Image 3">
+                    <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+                    <button class="next" onclick="changeSlide(1)">&#10095;</button>
+                </div>
+            </article>
+            <article id="article5">
+                <h2>Cualquiér elemento</h2>
+                <p>Ten por seguro que puedo hacer o conseguir cualquiér elemento que necesite tu sitio web.</p>
+                <!-- Carrucel -->
+                <div class="my-loader">
+                    <div class="rubiks-cube">
+                      <div class="face front">
+                        <div style="background: #ff3d00;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                        <div style="background: #ffffff;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                      </div>
+                  
+                      <div class="face back">
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                        <div style="background: #ffffff;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                      </div>
+                      <div class="face left">
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                        <div style="background: #ffffff;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                      </div>
+                      <div class="face right">
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                        <div style="background: #ffffff;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                      </div>
+                      <div class="face top">
+                        <div style="background: #2196f3;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #ffffff;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                      </div>
+                      <div class="face bottom">
+                        <div style="background: #ffffff;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                        <div style="background: #ffeb3b;" class="cube"></div>
+                        <div style="background: #4caf50;" class="cube"></div>
+                        <div style="background: #2196f3;" class="cube"></div>
+                        <div style="background: #ffffff;" class="cube"></div>
+                        <div style="background: #ff3d00;" class="cube"></div>
+                      </div>
+                    </div>
+                  </div>
+                  
+            </article>
+        </section>
+    </div>
+    <section>
+        
+    </section>
+    <footer id="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+              <h3>Sobre Nosotros</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="footer-section">
+              <h3>Enlaces Rápidos</h3>
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Contacto</h3>
+              <ul>
+                <li>Dirección: Calle Falsa 123</li>
+                <li>Teléfono: (123) 456-7890</li>
+                <li>Email: info@ejemplo.com</li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Síguenos</h3>
+              <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2024 Raúl Acosta Dev. Todos los derechos reservados.</p>
+          </div>
+    </footer>
+    <script src="./js/menuMovileHeader.js"></script>
+    <script src="./js/carrucel.js"></script>
+</body>
+
+</html>

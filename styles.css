@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* Colores */
+/* background rgb(250, 244, 236); */
+/* hover background rgb(247, 233, 215); */
+/* black background rgb(36, 34, 32); */
+body {
+    background-color:rgb(250, 244, 236);
+    font-family: 'Pacifico', cursive;
+}
+button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+article {
+    /* Arregla el scroll falso (100 - 20px = 80)  al ir a una sección de la página usando su id */
+    padding-top: 100px;
+    margin-top: -80px;
+}
+article h2{
+    text-align: center;
+}
+article h1, article h2, article h3, article h4, article h5, article h6 {
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+article p {
+    text-align: justify;
+    padding: 10px;
+}
+img {
+    transition: 0.2s;
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 1024px) {
+    /* Ajustar tamaño de letra */
+}
+@media (min-width: 1440px) {
+    /* Ajustar tamaño de letra */
+}

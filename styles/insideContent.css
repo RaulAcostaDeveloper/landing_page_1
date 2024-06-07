@@ -1,0 +1,11 @@
+/* Ajuste por culpa de la portada */
+.insideContent {
+    position: relative;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.insideContent article{
+    max-width: 1280px;
+}

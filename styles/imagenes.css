@@ -1,0 +1,47 @@
+.tamañoImagen1, .tamañoImagen2, .tamañoImagen3 {
+    /* Sombra para todas */
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.tamañoImagen1:hover, .tamañoImagen2:hover, .tamañoImagen3:hover {
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.75);
+}
+.tamañoImagen1 {
+    width: 300px;
+}
+.tamañoImagen2 {
+    width: 320px;
+}
+.tamañoImagen3 {
+    width: 420px;
+}
+.contenidoImagenes1, .contenidoImagenes2 {
+    margin: 40px 0;
+}
+.contenidoImagenes1 .contenedorImagen {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contenidoImagenes2 .imageContent {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+    .contenidoImagenes2 .imageContent {
+        justify-content: center;
+        flex-wrap: nowrap;
+    }
+    .contenidoImagenes2 .imageContent .contenidoDer {
+        margin-left: 20px;
+    }
+    .contenidoImagenes2 .imageContent .contenidoIzq {
+        margin-right: 20px;
+    }
+}
